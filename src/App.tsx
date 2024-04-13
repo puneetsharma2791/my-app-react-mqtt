@@ -6,9 +6,9 @@ import {
   FetchOptions,
   MQTTOptions,
   FetchData,
-} from "xcachemqtt";
-import { XFetcher } from "./main";
-import { MqttConnection } from "./mqttconnector";
+} from "xcachemqttwrapper";
+import { XFetcher } from "xcachemqttwrapper";
+import { MqttConnection } from "xcachemqttwrapper";
 
 export type PublishOptions = {
   message: UpdateNotification;
